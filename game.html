@@ -123,6 +123,9 @@ function drawEverything() {
   //Draws the board
   colorRect(0,0, canvas.width, canvas.height, 'green');
 
+  //Sets the font style
+  canvasContext.font = "20px Helvetica";
+
   if(showingWinScreen) {
     canvasContext.fillStyle = 'white';
     if(player1Score >= WINNING_SCORE) {
