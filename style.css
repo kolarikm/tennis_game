@@ -1,5 +1,4 @@
-* {
-  width: 800x;
-  margin-left: auto;
-  margin-right: auto;
+.center {
+  text-align: center;
+  margin: 0 auto;
 }
